@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="3"
+    android:columnCount="3"
+    >
+
+
+
+    <TableRow
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        >
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+
+    </TableRow>
+
+     <TableRow
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+
+        >
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        android:background="@drawable/fullborder"
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+
+    </TableRow>
+
+     <TableRow
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_border"
+        >
+
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        android:background="@drawable/fullborder"
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+    <include
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        layout="@layout/single_square"
+        />
+
+    </TableRow>
+
+
+</TableLayout>
